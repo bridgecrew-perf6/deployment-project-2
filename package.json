@@ -1,0 +1,17 @@
+{
+  "name": "Udagram-project",
+  "version": "2.1.0",
+  "description": "Hosting the Udacity Udagram Full Stack Application using AWS services.",
+    "scripts": {
+        "frontend:install": "cd udagram-frontend && npm install",
+        "frontend:build": "cd udagram-frontend && npm run build",
+        "frontend:test": "cd udagram-frontend && npm run test",
+        "frontend:deploy": "cd udagram-frontend && npm run deploy",
+        "backend:install": "cd udagram-api && npm install",
+        "backend:build": "cd udagram-api && npm run build",
+        "backend:test" : "cd udagram-api && npm run test",
+        "backend:deploy": "cd udagram-api && npm run deploy"
+    },
+  "author": "medomy"
+
+}
